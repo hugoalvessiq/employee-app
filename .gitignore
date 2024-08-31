@@ -1,0 +1,65 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.env
+
+# Compilação de binários
+target/
+
+# Arquivos gerados por cargo
+Cargo.lock
+
+# Arquivos de cache e compilação
+*.rs.bk
+*.rs.bk.*
+*.d
+*.s
+
+# Arquivos de configuração de ambiente
+.env
+
+# Diretórios de depuração de IDEs
+.vscode/
+.idea/
+*.iml
+
+# Arquivos temporários de editores de texto
+*~
+*.swp
+*.swo
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Outros arquivos temporários
+*.log
+*.tmp
+*.bak
+
+# Arquivos de configuração de ambientes de build (opcional)
+*.ncb
+*.suo
+*.user
+*.sln

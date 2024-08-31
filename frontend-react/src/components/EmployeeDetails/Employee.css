@@ -1,0 +1,40 @@
+.list--table {
+  list-style: none;
+}
+
+.name-label {
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.name-label:hover {
+  color: #413e3e;
+}
+
+.btn--delete {
+  background-color: #bb2424;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn--delete:hover {
+  background-color: #d63a3a;
+}
+
+.btn--employee--update {
+  display: flex;
+  padding: 8px 15px;
+  background: lightgreen;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 16px;
+}
+
+.btn--employee--update:hover {
+  background-color: #48a848;
+  color: #fff;
+}

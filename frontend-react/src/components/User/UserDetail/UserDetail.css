@@ -1,0 +1,67 @@
+/* UserDetail.css */
+.user-detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.user-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.user--name {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 100;
+  color: #333;
+}
+
+.user--name > span {
+  font-weight: bold;
+}
+
+.user-id {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.user-roles {
+  margin-top: 20px;
+}
+
+.user-roles h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.user-roles ul {
+  list-style: none;
+  padding: 0;
+}
+
+.user-roles li {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.role-date {
+  font-weight: 500;
+}
+
+.role-name {
+  color: #4ea54e;
+}
+
+.btn--delete {
+  margin-top: 10px;
+}

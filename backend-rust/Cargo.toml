@@ -1,0 +1,29 @@
+[package]
+name = "backend-rust"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+opt-level = 3          # Nível de otimização (0-3). 3 é o nível mais agressivo.
+lto = true             # Ativa Link Time Optimization (LTO) para reduzir o tamanho do binário e melhorar o desempenho.
+codegen-units = 1      # Reduz o número de unidades de código geradas, o que pode melhorar a otimização, mas pode aumentar o tempo de compilação.
+
+
+[dependencies]
+actix-cors = "0.7.0"
+futures = "0.3.30"
+actix-web = "4.8.0"
+actix-session = { version = "0.7.0", features = ["cookie-session"] }
+actix-identity = "0.4.0"
+actix-rt = "2.2.0"
+serde = "1.0.130"
+serde_json = "1.0.64"
+mongodb = "2.1.1"
+bson = "2.1.0"
+serde_derive = "1.0.130"
+chrono = "0.4.38"
+dotenv = "0.15.0"
+bcrypt = "0.15.1"
+jsonwebtoken = "9.3.0"
+actix-service = "2.0.2"
+regex = "1.10.6"

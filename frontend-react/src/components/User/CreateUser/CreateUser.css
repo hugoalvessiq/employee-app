@@ -1,0 +1,36 @@
+.form-container {
+  /* margin-top: 20px; */
+}
+
+.password {
+  margin-bottom: 0.5rem !important;
+}
+.label-password {
+  font-size: 13px;
+  color: lightgray;
+}
+
+.message-login {
+  background-color: rgb(179, 248, 179);
+  color: green;
+  border: 1px solid green;
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  margin-bottom: 8px;
+}
+
+.checkbox-container > label {
+  padding: 5px;
+}
+
+.checkbox-container > label > input {
+  margin-right: 4px;
+}

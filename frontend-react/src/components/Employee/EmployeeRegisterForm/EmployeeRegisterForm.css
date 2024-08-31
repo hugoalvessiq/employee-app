@@ -1,0 +1,94 @@
+/* Container do formulário */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+  font-family: Arial, sans-serif;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Link de navegação */
+.link-home {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* Mensagem de sucesso/erro */
+.message {
+  background-color: #fdd;
+  color: #d00;
+  border: 1px solid #d00;
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+/* Título do formulário */
+.form-title {
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Estilo do formulário */
+.form {
+  width: 100%;
+  max-width: 600px;
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo dos inputs */
+.form-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  background: #f9f9f9;
+}
+
+.form-input:focus {
+  border-color: #36d7b7;
+  outline: none;
+}
+
+/* Estilo do botão de envio */
+.btn-submit {
+  padding: 0.75rem 1.5rem;
+  background-color: #36d7b7;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: block;
+  width: 100%;
+}
+
+.btn-submit:hover {
+  background-color: #2a9d8f;
+}
+
+.btn-submit:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}

@@ -1,0 +1,152 @@
+/* Container principal */
+.search-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+  font-family: Arial, sans-serif;
+  padding: 1rem;
+}
+
+/* Link de navegação */
+.link-home {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* Título da busca */
+.title {
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Wrapper da busca */
+.search-wrapper {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: auto;
+}
+
+/* Estilo do input de busca */
+.search-input {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+}
+
+.search-input input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.suggestions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  background: #ffffff;
+  position: absolute;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1;
+}
+
+.suggestion-item {
+  padding: 0.75rem;
+  cursor: pointer;
+}
+
+.suggestion-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Estilo do botão de busca */
+.btn-search {
+  padding: 0.75rem 1.5rem;
+  background-color: #36d7b7;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-search:hover {
+  background-color: #2a9d8f;
+}
+
+.btn-search:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* Estilo do spinner */
+.spinner {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+/* Mensagem de erro */
+.error-message {
+  background-color: #fdd;
+  color: #d00;
+  border: 1px solid #d00;
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+/* Estilo da tabela */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.data-table th,
+.data-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+.data-table th {
+  background-color: #36d7b7;
+  color: #ffffff;
+  font-size: 1.125rem;
+}
+
+.data-table td {
+  color: #333333;
+}
+
+/* Estilo da lista de promoções */
+.promotion-item {
+  margin-bottom: 0.5rem;
+  list-style: inside;
+}

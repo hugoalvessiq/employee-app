@@ -1,0 +1,94 @@
+/* Container principal */
+.employee-details-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+  font-family: Arial, sans-serif;
+  padding: 1rem;
+}
+
+/* Link de navegação */
+.link-home {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* Container do carregamento */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+}
+
+/* Título do carregamento */
+.loading-title {
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+/* Contêiner da tabela */
+.table-container {
+  overflow-x: auto;
+  padding: 1rem;
+}
+
+/* Estilo da tabela */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.data-table th, .data-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+.data-table th {
+  background-color: #36d7b7;
+  color: #ffffff;
+  font-size: 1.125rem;
+}
+
+.data-table td {
+  color: #333333;
+}
+
+/* Estilo da última linha da tabela */
+.data-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Estilização do link */
+.link-home:hover {
+  text-decoration: underline;
+  color: #36d7b7;
+}
+
+.btn-employee  {
+  display: flex !important;
+  justify-content: center;
+  width: 20%;
+  margin-top: 20px;
+}
+
+.btn-employee>svg{
+  margin-right: 5px;
+}

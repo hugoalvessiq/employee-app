@@ -1,0 +1,33 @@
+/* Reset de estilos para garantir consistência */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* margin: auto; */
+}
+
+/* Estilo do corpo da página */
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  /*background: linear-gradient(to right, #007bff, #00bfff); */ /* Gradiente azul */
+  color: #333; /* Cor do texto */
+  /* display: flex; */
+  justify-content: center;
+  /* align-items: center; */
+  height: 100vh; /* Centraliza na vertical */
+}
+
+.logo img {
+  max-width: 100px; /* Ajuste o tamanho conforme necessário */
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5rem; /* Tamanho grande para título */
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem; /* Tamanho do texto regular */
+  margin-bottom: 20px;
+}
